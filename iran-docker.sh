@@ -33,11 +33,12 @@ declare -A dns_servers=(
 
 # Iranian Docker registry mirrors
 registry_proxies=(
-    "docker.iranserver.com"
-    "docker.haiocloud.com"
+    "docker.kernel.ir"
+    "focker.ir"
     "registry.docker.ir"
     "docker.arvancloud.ir"
-    "focker.ir"
+    "docker.haiocloud.com"
+    "docker.iranserver.com"
 )
 
 # DNS Management Functions
@@ -186,7 +187,6 @@ set_docker_proxy() {
     echo -e "{\n  \"registry-mirrors\": [\"https://$mirror\"]\n}" > /etc/docker/daemon.json
 
     # Restart Docker service to apply changes
-    systemctl daemon-reexec
     systemctl restart docker
 
     echo -e "${GREEN}Docker proxy set to:${NC} $mirror"

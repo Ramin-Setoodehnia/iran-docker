@@ -40,11 +40,12 @@ sudo ./iran-docker.sh
 
 ## Supported Docker Proxies
 
-* https://docker.iranserver.com
-* https://docker.haiocloud.com
-* https://registry.docker.ir
-* https://docker.arvancloud.ir
-* https://focker.ir
+* docker.kernel.ir
+* focker.ir
+* registry.docker.ir
+* docker.arvancloud.ir
+* docker.haiocloud.com
+* docker.iranserver.com
 
 These proxies are applied to /etc/docker/daemon.json and the Docker service will be restarted automatically.
 
