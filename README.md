@@ -13,7 +13,7 @@ A simple and powerful Bash script to simplify Docker usage on Iranian servers.
 ## Usage
 
 ```bash
-git clone https://github.com/Linuxmaster14/iran-docker.git
+git clone https://github.com/Ramin-Setoodehnia/iran-docker.git
 cd iran-docker
 chmod +x iran-docker.sh
 sudo ./iran-docker.sh
