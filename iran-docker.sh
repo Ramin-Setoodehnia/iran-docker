@@ -40,6 +40,7 @@ registry_proxies=(
     "docker.haiocloud.com"
     "docker.iranserver.com"
     "docker.mobinhost.com"
+    "hub.mecan.ir"
 )
 
 # DNS Management Functions
