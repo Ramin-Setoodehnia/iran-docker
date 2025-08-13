@@ -33,7 +33,7 @@ sudo ./iran-docker.sh
 * Radar
 * Electro
 * Begzar
-* DNS Pro
+* DNSPro
 * 403
 * Google
 * Cloudflare
@@ -46,6 +46,8 @@ sudo ./iran-docker.sh
 * docker.arvancloud.ir
 * docker.haiocloud.com
 * docker.iranserver.com
+* docker.mobinhost.com
+* hub.mecan.ir
 
 These proxies are applied to /etc/docker/daemon.json and the Docker service will be restarted automatically.
 
